@@ -5,3 +5,4 @@ compatibility_date = "2025-01-01"
 [[d1_databases]]
 binding = "database" # available in your Worker on env.database
 database_name = "database-bark"
+database_id = "${D1_DATABASE_ID}" # 这里用环境变量
